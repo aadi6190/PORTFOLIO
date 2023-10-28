@@ -1,0 +1,39 @@
+.card{
+    height: 14.5rem;
+    width: 11rem;
+    align-items: center;
+    text-align: center;
+    border: 5px solid var(--orangeCard);
+    box-shadow: var(--boxShadow);
+    border-radius: 10px;
+
+
+}
+.card>img{
+    height: 6rem;
+    width: 100%;
+    border-bottom:5px solid var(--orangeCard);
+}
+.card span:nth-child(2)
+{
+    margin-top: 10px;
+    font-weight: bold;
+}
+.card span:nth-child(3)
+{
+    margin-top: 17px;
+    font-size: 15px;
+}
+.cardbutton{
+    width: 160px;
+    height:40px;
+    margin-top: 0.55rem;
+    font-weight: bold;
+
+}
+
+@media screen and (max-width: 480px){
+    .card{
+        width: 13rem;
+    }
+}
